@@ -1,0 +1,20 @@
+# 复制为 application-local.yml 后填入真实值（该文件已在 .gitignore 中）
+# 线上部署时不要使用本文件，改用环境变量：
+#   SPRING_DATASOURCE_PASSWORD / SPRING_REDIS_PASSWORD
+#   SPRING_SHARDINGSPHERE_DATASOURCE_YTK_PASSWORD
+#   COS_CLIENT_SECRETID / COS_CLIENT_SECRETKEY / ALIYUNAI_APIKEY
+spring:
+  datasource:
+    password: "你的 MySQL 密码"
+  redis:
+    password: "你的 Redis 密码"
+  shardingsphere:
+    datasource:
+      ytk:
+        password: "你的 MySQL 密码（与上面相同）"
+cos:
+  client:
+    secretId: "腾讯云 SecretId"
+    secretKey: "腾讯云 SecretKey"
+aliYunAi:
+  apiKey: "阿里云百炼 API Key"
