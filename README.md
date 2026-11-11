@@ -2,7 +2,7 @@
 
 多空间视觉资产管理系统的服务端，提供图片存储与检索、空间与成员权限、AI 图像处理、多人实时协同编辑等能力。
 
-前端仓库：[yege-gallery](https://github.com/bxzd1170/yege-gallery) · 在线体验：<http://39.104.13.97/>
+前端仓库：[yuge-gallery-frontend](https://github.com/bxzd1170/yuge-gallery-frontend) · 在线体验：<http://39.104.13.97/>
 
 ---
 
